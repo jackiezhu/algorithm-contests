@@ -31,7 +31,7 @@ const LL MAXL = (0x7fffffffffffffffLL);
 const int MAXI = 0x7fffffff;
 
 
-//java BigInteger 可以自定义进制 
+//java BigInteger quickly solve big integer
 
 inline int toInt(char c) {
 	if (c >= '0' && c <= '9') return c - '0';
