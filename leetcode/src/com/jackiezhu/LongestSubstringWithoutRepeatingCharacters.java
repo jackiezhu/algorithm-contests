@@ -25,4 +25,11 @@ public class LongestSubstringWithoutRepeatingCharacters {
         }
         return ret;
     }
+
+    public static void main(String[] args) {
+        System.out.printf("");
+        System.out.println("args = [" + args + "]");
+        System.out.println();
+        System.out.println();
+    }
 }
