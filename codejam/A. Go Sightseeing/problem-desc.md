@@ -1,4 +1,4 @@
-#Problem
+## Problem
 
 When you travel, you like to spend time sightseeing in as many cities as possible, but sometimes you might not be able to because you need to catch the bus to the next city. To maximize your travel enjoyment, you decide to write a program to optimize your schedule.
 
@@ -8,7 +8,7 @@ At each city between 1 and N - 1, inclusive, you can decide to spend Ts time sig
 
 What is the maximum number of cities you can go sightseeing in?
 
-#Input
+## Input
 
 The input starts with one line containing one integer T, which is the number of test cases. T test cases follow.
 
@@ -16,11 +16,11 @@ Each test case begins with a line containing 3 integers, N, Ts and Tf, represent
 
 This is followed by N - 1 lines. On the i-th line, there are 3 integers, Si, Fi and Di, indicating the start time, frequency, and duration of buses travelling from city i to city i + 1.
 
-#Output
+## Output
 
 For each test case, output one line containing Case #x: y, where x is the test case number (starting from 1) and y is the maximum number of cities you can go sightseeing in such that you can still arrive at city N by time Tf at the latest. If it is impossible to arrive at city N by time Tf, output Case #x: IMPOSSIBLE.
 
-#Limits
+## Limits
 ``
 1 ≤ T ≤ 100.
 Small dataset
@@ -39,12 +39,12 @@ Large dataset
 1 ≤ Di ≤ 109.
 1 ≤ Ts ≤ 109.
 1 ≤ Tf ≤ 109.
-Sample
+## Sample
 ``
 
-#Input 
+## Input 
 	
-#Output 
+## Output 
 `` 
 4
 4 3 12
